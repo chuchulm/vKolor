@@ -1,0 +1,120 @@
+.container{
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:100px 0;
+    height: auto;
+}
+
+.container--modifier{
+    width: 60%;
+}
+
+.hero{
+    
+    min-height: 100vh;
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../../image/v11.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../../image/v9.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+      width: 100%;
+      height: 20%;
+    
+
+
+    
+    
+}
+
+.nav__hero{
+    color: $black1;
+    height: 9.5rem;
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    background: rgba(255, 255, 255, 0.733);
+
+}
+
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+    height: auto;
+}
+
+.logo__navBar{
+    margin-top: .2rem;
+    width: 50%;
+}
+
+.link{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5vw;
+    padding: 9px;
+}
+
+.link:hover{
+    color: red;
+}
+
+.link--active{
+    color: $red;
+    font-weight: 900;
+}
+
+.point{
+    color: $gold1;
+}
+
+.hero__main{
+    height: calc(100vh - 10rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+}
+
+.mockup{
+    object-fit: cover;
+    width: 48%;
+    max-height: 90vh;
+}
+
+.hero__textos{
+    width: 48%;
+}
+
+.title{
+    font-size: 3vw;
+    font-weight: 300;
+    color: $black1;
+    
+}
+
+.title--active{
+    color: rgb(199, 37, 37);
+    font-weight: 900;
+    text-shadow: $shadow  $color_shadow;
+}
+
+.copy{
+    font-size: 2.78vw;
+    color: $black1;
+    text-shadow: $shadow  $color_shadow;
+    margin: 15px 0;
+}
+
+.copy__active{
+    font-weight: 700;
+}
+
+

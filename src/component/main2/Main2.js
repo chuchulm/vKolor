@@ -15,31 +15,24 @@ export const Main2 = () => {
         </div>
 
             <div className="container__seccion-3 ">
-
-           
-                <div className="row">
-                    <div className="col-1">
-
-                       
-                        
-                        <div>
-                            <p>
-                                En Pinturas Vkolor de Venezuela sabemos que son tiempos de verdaderos retos,
-                                y en el sector industrial hemos cumplido con ser proveedores confiables,
-                                comprometidos con mantener la calidad de nuestros productos a precios competitivos.
-                                Nos dedicamos a la fabricación de pinturas y recubrimientos arquitectónicos e industriales,
-                                impermeabilizantes anticorrosivos y productos para aceras y pisos.
-                                Dentro de las pinturas arquitectónicas tenemos tres líneas: Vkolor Profesional,
-                                nuestra línea superior; Vkolor Hogar siendo nuestra línea intermedia y la línea Vkolor Industrial.
-                            </p>
-                        </div> 
-
-                    </div>
-                
-                    <div className="contenedor-img3 col-1">
-                        <img src={FotoMain3} className="imagen__main3 " alt=""/>
-                    </div>
+                <div className="col-1">
+                    <div>
+                        <p>
+                            En Pinturas Vkolor de Venezuela sabemos que son tiempos de verdaderos retos,
+                            y en el sector industrial hemos cumplido con ser proveedores confiables,
+                            comprometidos con mantener la calidad de nuestros productos a precios competitivos.
+                            Nos dedicamos a la fabricación de pinturas y recubrimientos arquitectónicos e industriales,
+                            impermeabilizantes anticorrosivos y productos para aceras y pisos.
+                            Dentro de las pinturas arquitectónicas tenemos tres líneas: Vkolor Profesional,
+                            nuestra línea superior; Vkolor Hogar siendo nuestra línea intermedia y la línea Vkolor Industrial.
+                        </p>
+                    </div> 
                 </div>
+            
+                <div className=" col-1">
+                    <img src={FotoMain3} className="imagen__main3 " alt=""/>
+                </div>
+        
             </div>
         </div>
 

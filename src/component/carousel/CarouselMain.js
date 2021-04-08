@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel } from 'antd';
-import img1 from '../../image/vkolorColores.jpg'
-import img2 from '../../image/v1.jpg'
-import img3 from '../../image/v8.jpg'
+import img1 from '../../image/image_slider_2.jpg'
+import img2 from '../../image/image_3.jpg'
+import img3 from '../../image/image_slider_3.jpg'
 
 
 
